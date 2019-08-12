@@ -1,0 +1,25 @@
+a {
+	text-decoration: none;
+}
+
+.link-external {
+	font-size: 12px;
+}
+
+.link-external::after {
+	margin-left: 4px;
+	font-weight: 900;
+	font-size: 16px;
+	font-family: "Font Awesome 5 Free", sans-serif;
+	content: "\f35d";
+}
+
+a,
+.link-external-dark {
+	color: #0079bf;
+}
+
+a.dark,
+.link-external-light {
+	color: #6cf;
+}

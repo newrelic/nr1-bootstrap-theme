@@ -1,0 +1,28 @@
+.nav-tabs .nav-link {
+	padding: 0 0 8px 0;
+	color: #8e9494 !important;
+	font-weight: $font-weight-bold;
+	font-size: $small-font-size;
+	line-height: 16px;
+	border: 0;
+	border-bottom: 1px solid transparent;
+}
+
+.nav-tabs .nav-item {
+	margin: 24px 8px 0 8px;
+}
+
+.nav-tabs .nav-item:first-of-type {
+	margin-left: 0;
+}
+
+.nav-tabs .nav-link.active,
+.nav-tabs .nav-link.active:hover {
+	color: #000e0e !important;
+	border-bottom: 1px solid #000e0e;
+}
+
+.nav-tabs .nav-link:hover {
+	color: #000e0e !important;
+	border-bottom: 0 solid #000e0e;
+}

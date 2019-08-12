@@ -1,0 +1,69 @@
+// Color system
+$white: #ffff;
+
+$accent-050: #f7fffe;
+$accent-100: #e3fffa;
+$accent-400: #40edcd;
+$accent-800: #2ca38d;
+$accent-900: #0f3831;
+
+$brand-050: #f7ffff;
+$brand-100: #edffff;
+$brand-400: #70ccd3;
+$brand-800: #007e8a;
+$brand-900: #005054;
+
+$neutral-050: #fafbfb;
+$neutral-100: #f4f5f5;
+$neutral-200: #edeeee;
+$neutral-300: #e3e4e4;
+$neutral-400: #d5d7d7;
+$neutral-500: #b9bdbd;
+$neutral-600: #8e9494;
+$neutral-700: #464e4e;
+$neutral-800: #2a3434;
+$neutral-900: #000e0e;
+
+$gray-100: $neutral-100;
+$gray-200: $neutral-200;
+$gray-300: $neutral-300;
+$gray-400: $neutral-400;
+$gray-500: $neutral-500;
+$gray-600: $neutral-600;
+$gray-700: $neutral-700;
+$gray-800: $neutral-800;
+$gray-900: $neutral-900;
+
+$black: $neutral-900;
+
+$blue-050: #f2fafc;
+$blue-100: #cff0ff;
+$blue-400: #66cbff;
+$blue-800: #0079bf;
+$blue-900: #033455;
+
+$green-050: #f2fcf3;
+$green-100: #d0ffd1;
+$green-400: #68f261;
+$green-800: #11a600;
+$green-900: #085400;
+
+$yellow-040: #fcf9f2;
+$yellow-100: #fef4d1;
+$yellow-400: #fed966;
+$yellow-800: #bf9600;
+$yellow-900: #544c00;
+
+$red-050: #fcf2f3;
+$red-100: #ffd1d7;
+$red-400: #ff667a;
+$red-800: #bf0016;
+$red-900: #54000b;
+
+$primary: $brand-900;
+$secondary: $neutral-100;
+$danger: $red-800;
+$light: $white;
+
+$component-active-color: $white;
+$component-active-bg: #006670;

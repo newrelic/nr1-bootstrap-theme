@@ -1,0 +1,155 @@
+/* eslint react/no-multi-comp: 0, react/prop-types: 0 */
+import React from 'react';
+import { PrismCode } from 'react-prism';
+import PageTitle from '../UI/PageTitle';
+import SectionTitle from '../UI/SectionTitle';
+import TooltipExample from '../examples/Tooltip';
+import TooltipRichExample from '../examples/TooltipRich';
+import TooltipAutoHideExample from '../examples/TooltipAutoHide';
+import TooltipExampleMulti from '../examples/TooltipMulti';
+import TooltipExampleUncontrolled from '../examples/TooltipUncontrolled';
+
+const TooltipExampleSource = require('!!raw-loader!../examples/Tooltip');
+const TooltipRichExampleSource = require('!!raw-loader!../examples/TooltipRich');
+const TooltipExampleAutoHideSource = require('!!raw-loader!../examples/TooltipAutoHide');
+const TooltipExampleMultiSource = require('!!raw-loader!../examples/TooltipMulti');
+const TooltipExampleUncontrolledSource = require('!!raw-loader!../examples/TooltipUncontrolled');
+
+export default class TooltipsPage extends React.Component {
+  render() {
+    return (
+      <div>
+        <PageTitle title="Tooltips"/>
+        <p>Tooltips are built with <a href="https://popper.js.org/">https://popper.js.org/</a> via <a
+          href="https://github.com/souporserious/react-popper">https://github.com/souporserious/react-popper</a>.</p>
+        <p>
+          The caret is centered horizontally or vertically depending on the position of the tooltip
+        </p>
+        <div className="docs-example">
+          <TooltipExample/>
+        </div>
+        <pre>
+          <PrismCode className="language-jsx">
+            {TooltipExampleSource}
+          </PrismCode>
+        </pre>
+        <h4>Properties</h4>
+        <pre>
+          <PrismCode className="language-jsx">
+{`Tooltip.propTypes = {
+  // space separated list of triggers (e.g. "click hover focus")
+  trigger: PropTypes.string,
+  // boundaries for popper, can be scrollParent, window, viewport, or any DOM element
+  boundariesElement: PropTypes.oneOfType([PropTypes.string, DOMElement]),
+  // boolean to control the state of the tooltip
+  isOpen: PropTypes.bool,
+  hideArrow: PropTypes.bool,
+  // callback for toggling isOpen in the controlling component. It will receive an object with info about the event that triggered it
+  toggle: PropTypes.func,
+  // target element or element ID, popover is attached to this element
+  target:  PropTypes.oneOfType([
+    PropTypes.string,
+    PropTypes.func,
+    DOMElement, // instanceof Element (https://developer.mozilla.org/en-US/docs/Web/API/Element)
+  ]).isRequired,
+  // Where to inject the popper DOM node, default to body
+  container: PropTypes.oneOfType([PropTypes.string, PropTypes.func, DOMElement]),
+  // optionally override show/hide delays - default { show: 0, hide: 250 }
+  delay: PropTypes.oneOfType([
+    PropTypes.shape({ show: PropTypes.number, hide: PropTypes.number }),
+    PropTypes.number
+  ]),
+  className: PropTypes.string,
+  // Apply class to the inner-tooltip
+  innerClassName: PropTypes.string,
+  // Apply class to the arrow-tooltip ('arrow' by default)
+  arrowClassName: PropTypes.string,
+  // optionally hide tooltip when hovering over tooltip content - default true
+  autohide: PropTypes.bool,
+  // convenience attachments for popover
+  placement: PropTypes.oneOf([
+    'auto',
+    'auto-start',
+    'auto-end',
+    'top',
+    'top-start',
+    'top-end',
+    'right',
+    'right-start',
+    'right-end',
+    'bottom',
+    'bottom-start',
+    'bottom-end',
+    'left',
+    'left-start',
+    'left-end',
+  ]),
+  // Custom modifiers that are passed to Popper.js, see https://popper.js.org/popper-documentation.html#modifiers
+  modifiers: PropTypes.object,
+  offset: PropTypes.oneOfType([
+    PropTypes.string,
+    PropTypes.number
+  ]),
+  // Custom ref handler that will be assigned to the "ref" of the <div> wrapping the tooltip elements
+  innerRef: PropTypes.oneOfType([
+    PropTypes.func,
+    PropTypes.string,
+    PropTypes.object
+  ]),
+
+  // Whether to show/hide the popover with a fade effect
+  // (default: true)
+  fade: PropTypes.bool,
+
+  // Whether to flip the direction of the popover if too close to
+  // the container edge
+  // (default: true)
+  flip: PropTypes.bool,
+}`}
+          </PrismCode>
+        </pre>
+        <SectionTitle>Tooltip Rich</SectionTitle>
+        <div className="docs-example">
+          <TooltipRichExample/>
+        </div>
+        <pre>
+          <PrismCode className="language-jsx">
+            {TooltipRichExampleSource}
+          </PrismCode>
+        </pre>
+        <SectionTitle>Tooltip Disable Autohide</SectionTitle>
+        <div className="docs-example">
+          <TooltipAutoHideExample/>
+        </div>
+        <pre>
+          <PrismCode className="language-jsx">
+            {TooltipExampleAutoHideSource}
+          </PrismCode>
+        </pre>
+        <SectionTitle>Tooltips List</SectionTitle>
+        <div className="docs-example">
+          <TooltipExampleMulti/>
+        </div>
+        <pre>
+          <PrismCode className="language-jsx">
+            {TooltipExampleMultiSource}
+          </PrismCode>
+        </pre>
+        <SectionTitle>Uncontrolled Tooltip</SectionTitle>
+        <p>
+          For the most basic use-case an uncontrolled component can provide the functionality wanted without the need to
+          manage/control the state of the component. <code>UncontrolledTooltip</code> does not
+          require <code>isOpen</code> nor <code>toggle</code> props to work.
+        </p>
+        <div className="docs-example">
+          <TooltipExampleUncontrolled/>
+        </div>
+        <pre>
+          <PrismCode className="language-jsx">
+            {TooltipExampleUncontrolledSource}
+          </PrismCode>
+        </pre>
+      </div>
+    );
+  }
+}

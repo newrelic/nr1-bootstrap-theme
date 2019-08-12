@@ -1,0 +1,31 @@
+a.badge {
+	text-decoration: none;
+}
+
+.badge-primary,
+a.badge-primary:hover,
+a.badge-primary:focus {
+	color: white;
+	background: $primary;
+}
+
+.badge-secondary,
+a.badge-secondary:hover,
+a.badge-secondary:focus {
+	color: $gray-700;
+	background: $secondary;
+}
+
+.badge-danger,
+a.badge-danger:hover,
+a.badge-danger:focus {
+	color: white;
+	background: $danger;
+}
+
+.badge-light,
+a.badge-light:hover,
+a.badge-light:focus {
+	color: $primary;
+	background: none;
+}

@@ -1,0 +1,10 @@
+/coverage
+node_modules
+/build
+/lib
+/es
+.idea
+.history
+npm-debug.log
+package-lock.json
+.DS_Store

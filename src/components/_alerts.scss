@@ -1,0 +1,38 @@
+.alert {
+	color: white;
+	font-size: $small-font-size;
+}
+
+.alert hr {
+	border-top-color: white;
+}
+
+.alert-primary {
+	background: $primary;
+}
+
+.alert-primary .alert-link {
+	color: white;
+}
+
+.alert-secondary {
+	color: $gray-700;
+	background: $secondary;
+}
+
+.alert-danger {
+	background: $danger;
+}
+
+.alert-danger .alert-link {
+	color: white;
+}
+
+.alert-light {
+	color: $alert-plain-color;
+	background: none;
+}
+
+.alert-light .alert-link {
+	color: $alert-plain-color;
+}

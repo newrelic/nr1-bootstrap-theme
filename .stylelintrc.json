@@ -1,0 +1,39 @@
+{
+  "processors": [],
+  "extends": [
+    "stylelint-config-standard",
+    "stylelint-config-rational-order"
+  ],
+  "rules": {
+    "rule-empty-line-before": "always-multi-line",
+    "max-nesting-depth": 6,
+    "declaration-colon-newline-after": null,
+    "indentation": [
+      "tab",
+      {
+        "baseIndentLevel": 1
+      }
+    ],
+    "no-eol-whitespace": [
+      true,
+      {
+        "ignore": [
+          "empty-lines"
+        ]
+      }
+    ],
+    "at-rule-no-unknown": [
+      true,
+      {
+        "ignoreAtRules": [
+          "mixin",
+          "include",
+          "for",
+          "if",
+          "else"
+        ]
+      }
+    ]
+  },
+  "root": true
+}

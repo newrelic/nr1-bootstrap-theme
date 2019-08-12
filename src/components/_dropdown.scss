@@ -1,0 +1,24 @@
+.dropdown-menu {
+	min-width: $dropdown-min-width;
+	padding-top: 0;
+	padding-bottom: 0;
+	overflow: hidden;
+	box-shadow: $dropdown-box-shadow;
+
+	.dropdown-item {
+		line-height: $dropdown-item-line-height;
+		text-align: left;
+
+		&:not(:last-child) {
+			border-bottom: 1px solid $neutral-100;
+		}
+
+		&:hover {
+			cursor: pointer;
+		}
+
+		&.active {
+			font-weight: 600;
+		}
+	}
+}

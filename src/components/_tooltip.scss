@@ -1,0 +1,25 @@
+.tooltip-inner {
+	font-size: 12px;
+	line-height: $tooltip-line-height;
+	text-align: left;
+	box-shadow: $tooltip-box-shadow;
+}
+
+.rich-tooltip-inner {
+	padding: $rich-tooltip-padding-x $rich-tooltip-padding-y;
+
+	.title {
+		margin-bottom: $rich-tooltip-title-margin-bottom;
+		font-weight: 600;
+		font-size: $rich-tooltip-title-font-size;
+		line-height: $rich-tooltip-title-line-height;
+	}
+
+	.content {
+		margin: 0;
+	}
+
+	.actions {
+		margin-top: 16px;
+	}
+}

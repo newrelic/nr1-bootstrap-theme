@@ -1,0 +1,42 @@
+.btn {
+	font-size: $small-font-size !important;
+	border: none;
+	border-radius: $btn-border-radius;
+}
+
+// Buttons by color
+
+.btn-primary,
+.btn-primary:hover {
+	color: $btn-primary-color;
+	background: $primary;
+}
+
+.btn-secondary,
+.btn-secondary:hover {
+	color: $btn-secondary-color;
+	background: $secondary;
+}
+
+.btn-danger,
+.btn-danger:hover {
+	color: $btn-primary-color;
+	background: $danger;
+}
+
+// Buttons without bg by colors
+
+.btn-outline-primary,
+.btn-outline-primary:hover {
+	color: $btn-plain-color;
+}
+
+.btn-outline-secondary,
+.btn-outline-secondary:hover {
+	color: #000;
+}
+
+.btn-outline-primary:hover,
+.btn-outline-secondary:hover {
+	background: $btn-plain-bg;
+}

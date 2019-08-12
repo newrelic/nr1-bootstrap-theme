@@ -1,0 +1,58 @@
+// HEADINGS
+
+h1,
+.h1 {
+	font-weight: $h1-weight;
+	line-height: $h1-line-height;
+}
+
+h2,
+.h2 {
+	font-weight: $h2-weight;
+	line-height: $h2-line-height;
+}
+
+h3,
+.h3 {
+	font-weight: $h3-weight;
+	line-height: $h3-line-height;
+}
+
+h4,
+.h4 {
+	font-weight: $h4-weight;
+	line-height: $h4-line-height;
+}
+
+h5,
+.h5 {
+	font-weight: $h5-weight;
+	line-height: $h5-line-height;
+}
+
+h6,
+.h6 {
+	font-weight: $h6-weight;
+	line-height: $h6-line-height;
+}
+
+p {
+	line-height: $paragraph-line-height;
+}
+
+.lead {
+	line-height: $lead-line-height;
+}
+
+small,
+.small {
+	line-height: $small-line-height;
+}
+
+.micro {
+	@include font-size($micro-font-size);
+}
+
+a {
+	line-height: $link-line-height;
+}

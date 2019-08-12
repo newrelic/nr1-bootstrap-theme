@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700');
+
+$font-family-base: 'Open Sans', sans-serif;
+
+$font-size-base: 0.875rem; // `14px`
+
+$font-weight-lighter: lighter;
+$font-weight-light: 300;
+$font-weight-normal: 400;
+$font-weight-bold: 600;
+$font-weight-bolder: 700;
+
+$line-height-base: 1.14;
+$headings-line-height: $line-height-base;
+
+$paragraph-line-height: 1.43;
+
+$h1-font-size: 32px;
+$h2-font-size: 24px;
+$h3-font-size: 21px;
+$h4-font-size: 14px;
+$h5-font-size: $h4-font-size;
+$h6-font-size: $h4-font-size;
+
+$h1-weight: $font-weight-normal;
+$h2-weight: $font-weight-bold;
+$h3-weight: $font-weight-bold;
+$h4-weight: $font-weight-bolder;
+$h5-weight: $font-weight-normal;
+$h6-weight: $font-weight-normal;
+
+$h1-line-height: 40px;
+$h2-line-height: 32px;
+$h3-line-height: 28px;
+$h4-line-height: 20px;
+$h5-line-height: $h4-line-height;
+$h6-line-height: $h4-line-height;
+
+$display1-size: 48px;
+$display2-size: $display1-size;
+$display3-size: $display1-size;
+$display4-size: $display1-size;
+
+$display1-weight: 400;
+$display2-weight: $display1-weight;
+$display3-weight: $display1-weight;
+$display4-weight: $display1-weight;
+
+$display-line-height: 60px;
+
+$lead-font-size: 18px;
+$lead-line-height: 24px;
+$lead-font-weight: 400;
+
+$small-font-size: 12px;
+$micro-font-size: 11px;
+
+$small-line-height: 16px;
+
+$link-line-height: 1.428;

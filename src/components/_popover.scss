@@ -1,0 +1,42 @@
+.popover {
+	overflow: hidden;
+
+	.arrow {
+		display: none;
+	}
+}
+
+.popover-body {
+	min-width: $popover-min-width;
+	padding: 8px;
+
+	ul {
+		width: calc(100% + 16px);
+		margin: -8px;
+		padding: 0;
+		font-size: 12px;
+		text-align: left;
+		list-style: none;
+
+		li {
+			padding: 8px;
+			color: $gray-700;
+
+			&:not(:last-child) {
+				border-bottom: 1px solid #f6f8f7;
+			}
+
+			&:hover {
+				color: $gray-900;
+				background-color: $blue-050;
+				cursor: pointer;
+			}
+
+			&.active {
+				color: $gray-900;
+				font-weight: 600;
+				background-color: $blue-100;
+			}
+		}
+	}
+}
