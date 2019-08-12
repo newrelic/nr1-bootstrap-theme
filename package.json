@@ -12,6 +12,14 @@
     "lint:docs": "eslint docs",
     "lint:styles": "stylelint \"src/**/*.scss\""
   },
+  "bugs": {
+    "email": "labs@newrelic.com"
+  },
+  "author": {
+    "name": "New Relic",
+    "email": "labs@newrelic.com",
+    "url": "https://github.com/newrelic"
+  },
   "dependencies": {
     "bootstrap": "^4.3.1"
   },
