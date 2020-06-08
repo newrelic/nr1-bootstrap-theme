@@ -26,6 +26,7 @@ code, the source code can be found at [https://github.com/newrelic/nr1-bootstrap
 * [@babel/plugin-transform-runtime](#babelplugin-transform-runtime)
 * [@babel/preset-env](#babelpreset-env)
 * [@babel/preset-react](#babelpreset-react)
+* [@babel/preset-react](#babelpreset-react)
 * [@babel/runtime](#babelruntime)
 * [babel-eslint](#babel-eslint)
 * [babel-loader](#babel-loader)
@@ -98,13 +99,13 @@ code, the source code can be found at [https://github.com/newrelic/nr1-bootstrap
 
 ### bootstrap
 
-This product includes source derived from [bootstrap](https://github.com/twbs/bootstrap) ([v4.3.1](https://github.com/twbs/bootstrap/tree/v4.3.1)), distributed under the [MIT License](https://github.com/twbs/bootstrap/blob/v4.3.1/LICENSE):
+This product includes source derived from [bootstrap](https://github.com/twbs/bootstrap) ([v4.5.0](https://github.com/twbs/bootstrap/tree/v4.5.0)), distributed under the [MIT License](https://github.com/twbs/bootstrap/blob/v4.5.0/LICENSE):
 
 ```
 The MIT License (MIT)
 
-Copyright (c) 2011-2019 Twitter, Inc.
-Copyright (c) 2011-2019 The Bootstrap Authors
+Copyright (c) 2011-2020 Twitter, Inc.
+Copyright (c) 2011-2020 The Bootstrap Authors
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -131,7 +132,7 @@ THE SOFTWARE.
 
 ### @babel/cli
 
-This product includes source derived from [@babel/cli](https://github.com/babel/babel/tree/master/packages/babel-cli) ([v7.6.0](https://github.com/babel/babel/tree/master/packages/babel-cli/tree/v7.6.0)), distributed under the [MIT License](https://github.com/babel/babel/tree/master/packages/babel-cli/blob/v7.6.0/LICENSE):
+This product includes source derived from [@babel/cli](https://github.com/babel/babel) ([v7.10.1](https://github.com/babel/babel/tree/v7.10.1)), distributed under the [MIT License](https://github.com/babel/babel/blob/v7.10.1/LICENSE):
 
 ```
 MIT License
@@ -161,7 +162,7 @@ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 ### @babel/core
 
-This product includes source derived from [@babel/core](https://github.com/babel/babel/tree/master/packages/babel-core) ([v7.6.0](https://github.com/babel/babel/tree/master/packages/babel-core/tree/v7.6.0)), distributed under the [MIT License](https://github.com/babel/babel/tree/master/packages/babel-core/blob/v7.6.0/LICENSE):
+This product includes source derived from [@babel/core](https://github.com/babel/babel) ([v7.10.2](https://github.com/babel/babel/tree/v7.10.2)), distributed under the [MIT License](https://github.com/babel/babel/blob/v7.10.2/LICENSE):
 
 ```
 MIT License
@@ -191,7 +192,7 @@ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 ### @babel/plugin-proposal-export-default-from
 
-This product includes source derived from [@babel/plugin-proposal-export-default-from](https://github.com/babel/babel/tree/master/packages/babel-plugin-proposal-export-default-from) ([v7.5.2](https://github.com/babel/babel/tree/master/packages/babel-plugin-proposal-export-default-from/tree/v7.5.2)), distributed under the [MIT License](https://github.com/babel/babel/tree/master/packages/babel-plugin-proposal-export-default-from/blob/v7.5.2/LICENSE):
+This product includes source derived from [@babel/plugin-proposal-export-default-from](https://github.com/babel/babel) ([v7.10.1](https://github.com/babel/babel/tree/v7.10.1)), distributed under the [MIT License](https://github.com/babel/babel/blob/v7.10.1/LICENSE):
 
 ```
 MIT License
@@ -221,7 +222,7 @@ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 ### @babel/plugin-proposal-export-namespace-from
 
-This product includes source derived from [@babel/plugin-proposal-export-namespace-from](https://github.com/babel/babel/tree/master/packages/babel-plugin-proposal-export-namespace-from) ([v7.5.2](https://github.com/babel/babel/tree/master/packages/babel-plugin-proposal-export-namespace-from/tree/v7.5.2)), distributed under the [MIT License](https://github.com/babel/babel/tree/master/packages/babel-plugin-proposal-export-namespace-from/blob/v7.5.2/LICENSE):
+This product includes source derived from [@babel/plugin-proposal-export-namespace-from](https://github.com/babel/babel) ([v7.10.1](https://github.com/babel/babel/tree/v7.10.1)), distributed under the [MIT License](https://github.com/babel/babel/blob/v7.10.1/LICENSE):
 
 ```
 MIT License
@@ -251,7 +252,7 @@ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 ### @babel/plugin-proposal-object-rest-spread
 
-This product includes source derived from [@babel/plugin-proposal-object-rest-spread](https://github.com/babel/babel/tree/master/packages/babel-plugin-proposal-object-rest-spread) ([v7.5.5](https://github.com/babel/babel/tree/master/packages/babel-plugin-proposal-object-rest-spread/tree/v7.5.5)), distributed under the [MIT License](https://github.com/babel/babel/tree/master/packages/babel-plugin-proposal-object-rest-spread/blob/v7.5.5/LICENSE):
+This product includes source derived from [@babel/plugin-proposal-object-rest-spread](https://github.com/babel/babel) ([v7.10.1](https://github.com/babel/babel/tree/v7.10.1)), distributed under the [MIT License](https://github.com/babel/babel/blob/v7.10.1/LICENSE):
 
 ```
 MIT License
@@ -281,7 +282,7 @@ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 ### @babel/plugin-transform-runtime
 
-This product includes source derived from [@babel/plugin-transform-runtime](https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-runtime) ([v7.6.0](https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-runtime/tree/v7.6.0)), distributed under the [MIT License](https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-runtime/blob/v7.6.0/LICENSE):
+This product includes source derived from [@babel/plugin-transform-runtime](https://github.com/babel/babel) ([v7.10.1](https://github.com/babel/babel/tree/v7.10.1)), distributed under the [MIT License](https://github.com/babel/babel/blob/v7.10.1/LICENSE):
 
 ```
 MIT License
@@ -311,7 +312,7 @@ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 ### @babel/preset-env
 
-This product includes source derived from [@babel/preset-env](https://github.com/babel/babel/tree/master/packages/babel-preset-env) ([v7.6.0](https://github.com/babel/babel/tree/master/packages/babel-preset-env/tree/v7.6.0)), distributed under the [MIT License](https://github.com/babel/babel/tree/master/packages/babel-preset-env/blob/v7.6.0/LICENSE):
+This product includes source derived from [@babel/preset-env](https://github.com/babel/babel) ([v7.10.2](https://github.com/babel/babel/tree/v7.10.2)), distributed under the [MIT License](https://github.com/babel/babel/blob/v7.10.2/LICENSE):
 
 ```
 MIT License
@@ -346,7 +347,37 @@ This product includes source derived from [@babel/preset-react](https://github.c
 ```
 MIT License
 
-Copyright (c) 2014-2018 Sebastian McKenzie <sebmck@gmail.com>
+Copyright (c) 2014-present Sebastian McKenzie and other contributors
+
+Permission is hereby granted, free of charge, to any person obtaining
+a copy of this software and associated documentation files (the
+"Software"), to deal in the Software without restriction, including
+without limitation the rights to use, copy, modify, merge, publish,
+distribute, sublicense, and/or sell copies of the Software, and to
+permit persons to whom the Software is furnished to do so, subject to
+the following conditions:
+
+The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
+LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+```
+
+### @babel/preset-react
+
+This product includes source derived from [@babel/preset-react](https://github.com/babel/babel) ([v7.10.1](https://github.com/babel/babel/tree/v7.10.1)), distributed under the [MIT License](https://github.com/babel/babel/blob/v7.10.1/LICENSE):
+
+```
+MIT License
+
+Copyright (c) 2014-present Sebastian McKenzie and other contributors
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
@@ -371,7 +402,7 @@ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 ### @babel/runtime
 
-This product includes source derived from [@babel/runtime](https://github.com/babel/babel/tree/master/packages/babel-runtime) ([v7.6.0](https://github.com/babel/babel/tree/master/packages/babel-runtime/tree/v7.6.0)), distributed under the [MIT License](https://github.com/babel/babel/tree/master/packages/babel-runtime/blob/v7.6.0/LICENSE):
+This product includes source derived from [@babel/runtime](https://github.com/babel/babel) ([v7.10.2](https://github.com/babel/babel/tree/v7.10.2)), distributed under the [MIT License](https://github.com/babel/babel/blob/v7.10.2/LICENSE):
 
 ```
 MIT License
@@ -461,7 +492,7 @@ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 ### babel-loader
 
-This product includes source derived from [babel-loader](https://github.com/babel/babel-loader) ([v8.0.6](https://github.com/babel/babel-loader/tree/v8.0.6)), distributed under the [MIT License](https://github.com/babel/babel-loader/blob/v8.0.6/LICENSE):
+This product includes source derived from [babel-loader](https://github.com/babel/babel-loader) ([v8.1.0](https://github.com/babel/babel-loader/tree/v8.1.0)), distributed under the [MIT License](https://github.com/babel/babel-loader/blob/v8.1.0/LICENSE):
 
 ```
 Copyright (c) 2014-2019 Luís Couto <hello@luiscouto.pt>
@@ -707,7 +738,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 ### ejs
 
-This product includes source derived from [ejs](https://github.com/mde/ejs) ([v2.7.1](https://github.com/mde/ejs/tree/v2.7.1)), distributed under the [Apache-2.0 License](https://github.com/mde/ejs/blob/v2.7.1/LICENSE):
+This product includes source derived from [ejs](https://github.com/mde/ejs) ([v2.7.4](https://github.com/mde/ejs/tree/v2.7.4)), distributed under the [Apache-2.0 License](https://github.com/mde/ejs/blob/v2.7.4/LICENSE):
 
 ```
 
@@ -917,7 +948,7 @@ This product includes source derived from [ejs](https://github.com/mde/ejs) ([v2
 
 ### enzyme-adapter-react-16
 
-This product includes source derived from [enzyme-adapter-react-16](https://github.com/airbnb/enzyme) ([v1.14.0](https://github.com/airbnb/enzyme/tree/v1.14.0)), distributed under the [MIT License](https://github.com/airbnb/enzyme/blob/v1.14.0/LICENSE.md):
+This product includes source derived from [enzyme-adapter-react-16](https://github.com/airbnb/enzyme) ([v1.15.2](https://github.com/airbnb/enzyme/tree/v1.15.2)), distributed under the [MIT License](https://github.com/airbnb/enzyme/blob/v1.15.2/LICENSE.md):
 
 ```
 
@@ -947,7 +978,7 @@ SOFTWARE.
 
 ### enzyme
 
-This product includes source derived from [enzyme](https://github.com/airbnb/enzyme) ([v3.10.0](https://github.com/airbnb/enzyme/tree/v3.10.0)), distributed under the [MIT License](https://github.com/airbnb/enzyme/blob/v3.10.0/LICENSE.md):
+This product includes source derived from [enzyme](https://github.com/airbnb/enzyme) ([v3.11.0](https://github.com/airbnb/enzyme/tree/v3.11.0)), distributed under the [MIT License](https://github.com/airbnb/enzyme/blob/v3.11.0/LICENSE.md):
 
 ```
 
@@ -1068,7 +1099,7 @@ SOFTWARE.
 
 ### eslint-plugin-import
 
-This product includes source derived from [eslint-plugin-import](https://github.com/benmosher/eslint-plugin-import) ([v2.18.2](https://github.com/benmosher/eslint-plugin-import/tree/v2.18.2)), distributed under the [MIT License](https://github.com/benmosher/eslint-plugin-import/blob/v2.18.2/LICENSE):
+This product includes source derived from [eslint-plugin-import](https://github.com/benmosher/eslint-plugin-import) ([v2.21.1](https://github.com/benmosher/eslint-plugin-import/tree/v2.21.1)), distributed under the [MIT License](https://github.com/benmosher/eslint-plugin-import/blob/v2.21.1/LICENSE):
 
 ```
 The MIT License (MIT)
@@ -1160,7 +1191,7 @@ SOFTWARE.
 
 ### eslint-plugin-react
 
-This product includes source derived from [eslint-plugin-react](https://github.com/yannickcr/eslint-plugin-react) ([v7.14.3](https://github.com/yannickcr/eslint-plugin-react/tree/v7.14.3)), distributed under the [MIT License](https://github.com/yannickcr/eslint-plugin-react/blob/v7.14.3/LICENSE):
+This product includes source derived from [eslint-plugin-react](https://github.com/yannickcr/eslint-plugin-react) ([v7.20.0](https://github.com/yannickcr/eslint-plugin-react/tree/v7.20.0)), distributed under the [MIT License](https://github.com/yannickcr/eslint-plugin-react/blob/v7.20.0/LICENSE):
 
 ```
 The MIT License (MIT)
@@ -1333,7 +1364,7 @@ SOFTWARE.
 
 ### holderjs
 
-This product includes source derived from [holderjs](https://github.com/imsky/holder) ([v2.9.6](https://github.com/imsky/holder/tree/v2.9.6)), distributed under the [MIT License](https://github.com/imsky/holder/blob/v2.9.6/LICENSE):
+This product includes source derived from [holderjs](https://github.com/imsky/holder) ([v2.9.7](https://github.com/imsky/holder/tree/v2.9.7)), distributed under the [MIT License](https://github.com/imsky/holder/blob/v2.9.7/LICENSE):
 
 ```
 The MIT License (MIT)
@@ -1558,7 +1589,7 @@ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 ### node-sass
 
-This product includes source derived from [node-sass](https://github.com/sass/node-sass) ([v4.12.0](https://github.com/sass/node-sass/tree/v4.12.0)), distributed under the [MIT License](https://github.com/sass/node-sass/blob/v4.12.0/LICENSE):
+This product includes source derived from [node-sass](https://github.com/sass/node-sass) ([v4.14.1](https://github.com/sass/node-sass/tree/v4.14.1)), distributed under the [MIT License](https://github.com/sass/node-sass/blob/v4.14.1/LICENSE):
 
 ```
 Copyright (c) 2013-2016 Andrew Nesbitt
@@ -1657,7 +1688,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 ### react-dom
 
-This product includes source derived from [react-dom](https://github.com/facebook/react) ([v16.9.0](https://github.com/facebook/react/tree/v16.9.0)), distributed under the [MIT License](https://github.com/facebook/react/blob/v16.9.0/LICENSE):
+This product includes source derived from [react-dom](https://github.com/facebook/react) ([v16.13.1](https://github.com/facebook/react/tree/v16.13.1)), distributed under the [MIT License](https://github.com/facebook/react/blob/v16.13.1/LICENSE):
 
 ```
 MIT License
@@ -1741,7 +1772,7 @@ SOFTWARE.
 
 ### react-popper
 
-This product includes source derived from [react-popper](https://github.com/souporserious/react-popper) ([v1.3.4](https://github.com/souporserious/react-popper/tree/v1.3.4)), distributed under the [MIT License](https://github.com/souporserious/react-popper/blob/v1.3.4/LICENSE):
+This product includes source derived from [react-popper](https://github.com/souporserious/react-popper) ([v1.3.7](https://github.com/souporserious/react-popper/tree/v1.3.7)), distributed under the [MIT License](https://github.com/souporserious/react-popper/blob/v1.3.7/LICENSE):
 
 ```
 The MIT License (MIT)
@@ -1798,7 +1829,7 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 ### react-router
 
-This product includes source derived from [react-router](https://github.com/ReactTraining/react-router) ([v3.2.4](https://github.com/ReactTraining/react-router/tree/v3.2.4)), distributed under the [MIT License](https://github.com/ReactTraining/react-router/blob/v3.2.4/LICENSE.md):
+This product includes source derived from [react-router](https://github.com/ReactTraining/react-router) ([v3.2.6](https://github.com/ReactTraining/react-router/tree/v3.2.6)), distributed under the [MIT License](https://github.com/ReactTraining/react-router/blob/v3.2.6/LICENSE.md):
 
 ```
 The MIT License (MIT)
@@ -1856,7 +1887,7 @@ SOFTWARE.
 
 ### react-test-renderer
 
-This product includes source derived from [react-test-renderer](https://github.com/facebook/react) ([v16.9.0](https://github.com/facebook/react/tree/v16.9.0)), distributed under the [MIT License](https://github.com/facebook/react/blob/v16.9.0/LICENSE):
+This product includes source derived from [react-test-renderer](https://github.com/facebook/react) ([v16.13.1](https://github.com/facebook/react/tree/v16.13.1)), distributed under the [MIT License](https://github.com/facebook/react/blob/v16.13.1/LICENSE):
 
 ```
 MIT License
@@ -1923,7 +1954,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 ### react
 
-This product includes source derived from [react](https://github.com/facebook/react) ([v16.9.0](https://github.com/facebook/react/tree/v16.9.0)), distributed under the [MIT License](https://github.com/facebook/react/blob/v16.9.0/LICENSE):
+This product includes source derived from [react](https://github.com/facebook/react) ([v16.13.1](https://github.com/facebook/react/tree/v16.13.1)), distributed under the [MIT License](https://github.com/facebook/react/blob/v16.13.1/LICENSE):
 
 ```
 MIT License
@@ -1952,7 +1983,7 @@ SOFTWARE.
 
 ### reactstrap
 
-This product includes source derived from [reactstrap](https://github.com/reactstrap/reactstrap) ([v8.0.1](https://github.com/reactstrap/reactstrap/tree/v8.0.1)), distributed under the [MIT License](https://github.com/reactstrap/reactstrap/blob/v8.0.1/LICENSE):
+This product includes source derived from [reactstrap](https://github.com/reactstrap/reactstrap) ([v8.4.1](https://github.com/reactstrap/reactstrap/tree/v8.4.1)), distributed under the [MIT License](https://github.com/reactstrap/reactstrap/blob/v8.4.1/LICENSE):
 
 ```
 The MIT License (MIT)
@@ -2010,7 +2041,7 @@ THE SOFTWARE.
 
 ### rollup-plugin-babel
 
-This product includes source derived from [rollup-plugin-babel](https://github.com/rollup/rollup-plugin-babel) ([v4.3.3](https://github.com/rollup/rollup-plugin-babel/tree/v4.3.3)), distributed under the [MIT License](https://github.com/rollup/rollup-plugin-babel/blob/v4.3.3/LICENSE.md):
+This product includes source derived from [rollup-plugin-babel](https://github.com/rollup/rollup-plugin-babel) ([v4.4.0](https://github.com/rollup/rollup-plugin-babel/tree/v4.4.0)), distributed under the [MIT License](https://github.com/rollup/rollup-plugin-babel/blob/v4.4.0/LICENSE.md):
 
 ```
 The MIT License (MIT)
@@ -2096,7 +2127,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 ### rollup
 
-This product includes source derived from [rollup](https://github.com/rollup/rollup) ([v1.21.4](https://github.com/rollup/rollup/tree/v1.21.4)), distributed under the [MIT License](https://github.com/rollup/rollup/blob/v1.21.4/LICENSE.md):
+This product includes source derived from [rollup](https://github.com/rollup/rollup) ([v1.32.1](https://github.com/rollup/rollup/tree/v1.32.1)), distributed under the [MIT License](https://github.com/rollup/rollup/blob/v1.32.1/LICENSE.md):
 
 ```
 # Rollup core license
@@ -2129,6 +2160,33 @@ The published Rollup artifact additionally contains code with the following lice
 MIT, ISC, Apache-2.0
 
 # Bundled dependencies:
+## acorn-export-ns-from
+License: MIT
+By: Adrian Heine
+Repository: https://github.com/acornjs/acorn-export-ns-from
+
+> Copyright (C) 2017-2018 by Adrian Heine
+> 
+> Permission is hereby granted, free of charge, to any person obtaining a copy
+> of this software and associated documentation files (the "Software"), to deal
+> in the Software without restriction, including without limitation the rights
+> to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+> copies of the Software, and to permit persons to whom the Software is
+> furnished to do so, subject to the following conditions:
+> 
+> The above copyright notice and this permission notice shall be included in
+> all copies or substantial portions of the Software.
+> 
+> THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+> IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+> FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+> AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+> LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+> OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+> THE SOFTWARE.
+
+---------------------------------------
+
 ## acorn-import-meta
 License: MIT
 By: Adrian Heine
@@ -2252,35 +2310,6 @@ Repository: jonschlinkert/fill-range
 License: MIT
 By: Fedor Indutny
 Repository: git@github.com:indutny/hash.js
-
----------------------------------------
-
-## immutable
-License: MIT
-By: Lee Byron
-Repository: git://github.com/facebook/immutable-js.git
-
-> MIT License
-> 
-> Copyright (c) 2014-present, Facebook, Inc.
-> 
-> Permission is hereby granted, free of charge, to any person obtaining a copy
-> of this software and associated documentation files (the "Software"), to deal
-> in the Software without restriction, including without limitation the rights
-> to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-> copies of the Software, and to permit persons to whom the Software is
-> furnished to do so, subject to the following conditions:
-> 
-> The above copyright notice and this permission notice shall be included in all
-> copies or substantial portions of the Software.
-> 
-> THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-> IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-> FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-> AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-> LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-> OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-> SOFTWARE.
 
 ---------------------------------------
 
@@ -3061,7 +3090,7 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 ### webpack-cli
 
-This product includes source derived from [webpack-cli](https://github.com/webpack/webpack-cli) ([v3.3.9](https://github.com/webpack/webpack-cli/tree/v3.3.9)), distributed under the [MIT License](https://github.com/webpack/webpack-cli/blob/v3.3.9/LICENSE):
+This product includes source derived from [webpack-cli](https://github.com/webpack/webpack-cli) ([v3.3.11](https://github.com/webpack/webpack-cli/tree/v3.3.11)), distributed under the [MIT License](https://github.com/webpack/webpack-cli/blob/v3.3.11/LICENSE):
 
 ```
 Copyright JS Foundation and other contributors
@@ -3088,7 +3117,7 @@ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 ### webpack-dev-server
 
-This product includes source derived from [webpack-dev-server](https://github.com/webpack/webpack-dev-server) ([v3.8.1](https://github.com/webpack/webpack-dev-server/tree/v3.8.1)), distributed under the [MIT License](https://github.com/webpack/webpack-dev-server/blob/v3.8.1/LICENSE):
+This product includes source derived from [webpack-dev-server](https://github.com/webpack/webpack-dev-server) ([v3.11.0](https://github.com/webpack/webpack-dev-server/tree/v3.11.0)), distributed under the [MIT License](https://github.com/webpack/webpack-dev-server/blob/v3.11.0/LICENSE):
 
 ```
 Copyright JS Foundation and other contributors
@@ -3116,7 +3145,7 @@ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 ### webpack
 
-This product includes source derived from [webpack](https://github.com/webpack/webpack) ([v4.40.2](https://github.com/webpack/webpack/tree/v4.40.2)), distributed under the [MIT License](https://github.com/webpack/webpack/blob/v4.40.2/LICENSE):
+This product includes source derived from [webpack](https://github.com/webpack/webpack) ([v4.43.0](https://github.com/webpack/webpack/tree/v4.43.0)), distributed under the [MIT License](https://github.com/webpack/webpack/blob/v4.43.0/LICENSE):
 
 ```
 Copyright JS Foundation and other contributors
