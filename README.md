@@ -1,4 +1,10 @@
-# Usage
+[![New Relic Experimental header](https://github.com/newrelic/open-source-office/raw/master/examples/categories/images/Experimental.png)](https://github.com/newrelic/open-source-office/blob/master/examples/categories/index.md#category-new-relic-experimental)
+
+# New Relic One Bootstrap Theme (nr1-bootstrap-theme)
+
+![CI](https://github.com/newrelic/nr1-bootstrap-theme/workflows/CI/badge.svg) ![GitHub release (latest SemVer including pre-releases)](https://img.shields.io/github/v/release/newrelic/nr1-bootstrap-theme?include_prereleases&sort=semver) [![Snyk](https://snyk.io/test/github/newrelic/nr1-bootstrap-theme/badge.svg)](https://snyk.io/test/github/newrelic/nr1-bootstrap-theme)
+
+## Usage
 
 Prior to deploying this package to npm, use the following:
 
@@ -10,7 +16,7 @@ In your project's CSS/SCSS file in your NerdPack to apply this theme to your Boo
 @import "~nr1-bootstrap-theme/dist/main.css";
 ```
 
-# Additional Development
+## Additional Development
 To do additional develpment
 
 ## Runing locally
